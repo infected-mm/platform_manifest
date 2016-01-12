@@ -383,7 +383,7 @@
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
   <!--<project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />-->
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
+  <!--<project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />-->
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
@@ -539,6 +539,7 @@
 
   <project path="packages/apps/DeskClock" name="SonyAosp/platform_packages_apps_DeskClock" groups="pdk-fs" remote="github" revision="mm-6.0" />
   <project path="packages/apps/Dialer" name="SonyAosp/platform_packages_apps_Dialer" groups="pdk-fs" remote="github" revision="mm-6.0" />
+  <project path="packages/apps/Nfc" name="SonyAosp/platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="github" revision="mm-6.0" />
 
   <project path="vendor/google" name="SonyAosp/platform_vendor_google" groups="device" remote="github" revision="mm-6.0" />
   <project path="vendor/qcom" name="SonyAosp/platform_vendor_qcom" groups="device" remote="github" revision="mm-6.0" />
