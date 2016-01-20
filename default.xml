@@ -529,6 +529,7 @@
   <project path="external/sony/boringssl-compat" name="boringssl-compat" groups="device" remote="sony" revision="master" />
 
   <project path="hardware/broadcom/libbt" name="SonyAosp/platform_hardware_broadcom_libbt" groups="pdk" remote="github" revision="mm-6.0" />
+  <project path="hardware/qcom/camera" name="camera" groups="qcom" remote="sony" revision="aosp/LA.BF64.1.2.2_rb4.7" />
   <project path="hardware/qcom/wlan" name="SonyAosp/platform_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="mm-6.0" />
   <project path="hardware/sony/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
   <project path="hardware/sony/mkqcdtbootimg" name="mkqcdtbootimg" groups="device" remote="sony" revision="master" />
