@@ -206,7 +206,7 @@
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk-cw-fs" />
-  <project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs" />
+  <!--<project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs" />-->
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv,pdk-cw-fs" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" groups="pdk-cw-fs" />
   <project path="external/littlemock" name="platform/external/littlemock" groups="pdk-cw-fs" />
@@ -557,6 +557,7 @@
   <project path="device/sony/seagull" name="SonyAosp/device-sony-seagull" groups="device" remote="github" revision="lp-5.1" />
 
   <project path="external/libnfc-nci" name="SonyAosp/platform_external_libnfc-nci" groups="pdk" remote="github" revision="lp-5.1" />
+  <project path="external/libxml2" name="SonyAosp/platform_external_libxml2" groups="pdk-cw-fs" remote="github" revision="lp-5.1" />
 
   <project path="hardware/libhardware" name="SonyAosp/platform_hardware_libhardware" groups="pdk" remote="github" revision="lp-5.1" />
   <project path="hardware/broadcom/libbt" name="SonyAosp/platform_hardware_broadcom_libbt" groups="pdk" remote="github" revision="lp-5.1" />
@@ -576,6 +577,7 @@
   <project path="vendor/google" name="SonyAosp/platform_vendor_google" groups="device" remote="github" revision="lp-5.1" />
   <project path="vendor/qcom" name="SonyAosp/platform_vendor_qcom" groups="device" remote="github" revision="lp-5.1" />
   <project path="vendor/qcom/proprietary" name="SonyAosp/platform_vendor_qcom_proprietary" groups="device" remote="github" revision="lp-5.1" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor-qcom-opensource-dataservices" groups="device" remote="sony" revision="master" />
   <project path="vendor/sony" name="SonyAosp/platform_vendor_sony" groups="device" remote="github" revision="lp-5.1" />
 
 </manifest>
