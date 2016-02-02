@@ -524,6 +524,7 @@
   </project>
 
   <project path="device/qcom/sepolicy" name="SonyAosp/device-qcom-sepolicy" groups="device" remote="github" revision="lp-5.1" />
+  <project path="device/sony/common" name="SonyAosp/device-sony-common" groups="device" remote="github" revision="lp-5.1" />
 
   <project path="device/sony/kanuti" name="SonyAosp/device-sony-kanuti" groups="device" remote="github" revision="lp-5.1" />
   <project path="device/sony/tulip" name="SonyAosp/device-sony-tulip" groups="device" remote="github" revision="lp-5.1" />
