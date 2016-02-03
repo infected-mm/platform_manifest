@@ -495,6 +495,7 @@
   </project>
 
   <project path="device/qcom/sepolicy" name="SonyAosp/device-qcom-sepolicy" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/common" name="SonyAosp/device-sony-common" groups="device" remote="github" revision="mm-6.0" />
 
   <project path="device/sony/kanuti" name="SonyAosp/device-sony-kanuti" groups="device" remote="github" revision="mm-6.0" />
   <project path="device/sony/tulip" name="SonyAosp/device-sony-tulip" groups="device" remote="github" revision="mm-6.0" />
@@ -547,6 +548,7 @@
   <project path="vendor/google" name="SonyAosp/platform_vendor_google" groups="device" remote="github" revision="mm-6.0" />
   <project path="vendor/qcom" name="SonyAosp/platform_vendor_qcom" groups="device" remote="github" revision="mm-6.0" />
   <project path="vendor/qcom/proprietary" name="SonyAosp/platform_vendor_qcom_proprietary" groups="device" remote="github" revision="mm-6.0" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor-qcom-opensource-dataservices" groups="device" remote="sony" revision="master" />
   <project path="vendor/sony" name="SonyAosp/platform_vendor_sony" groups="device" remote="github" revision="mm-6.0" />
 
 </manifest>
