@@ -490,65 +490,37 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- Sony Aosp Manifest -->
-  <project path="build" name="SonyAosp/platform_build" groups="pdk" remote="github" revision="mm-6.0" >
+  <project path="build" name="infected-mm/platform_build" groups="pdk" remote="github" revision="mm-6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="device/qcom/sepolicy" name="SonyAosp/device-qcom-sepolicy" groups="device" remote="github" revision="mm-6.0" />
-  <project path="device/sony/common" name="SonyAosp/device-sony-common" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/qcom/sepolicy" name="infected-mm/device-qcom-sepolicy" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/common" name="infected-mm/device-sony-common" groups="device" remote="github" revision="mm-6.0" />
 
-  <project path="device/sony/kanuti" name="SonyAosp/device-sony-kanuti" groups="device" remote="github" revision="mm-6.0" />
-  <project path="device/sony/tulip" name="SonyAosp/device-sony-tulip" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/shinano" name="infected-mm/device-sony-shinano" groups="device" remote="github" revision="mm-6.0" />
+  <project path="device/sony/leo" name="infected-mm/device-sony-leo" groups="device" remote="github" revision="mm-6.0" />
 
-  <project path="device/sony/kitakami" name="SonyAosp/device-sony-kitakami" groups="device" remote="github" revision="mm-6.0" />
-  <project path="device/sony/ivy" name="SonyAosp/device-sony-ivy" groups="device" remote="github" revision="mm-6.0" />
-  <project path="device/sony/karin" name="SonyAosp/device-sony-karin" groups="device" remote="github" revision="mm-6.0" />
-  <project path="device/sony/karin_windy" name="SonyAosp/device-sony-karin_windy" groups="device" remote="github" revision="mm-6.0" />
-  <project path="device/sony/suzuran" name="SonyAosp/device-sony-suzuran" groups="device" remote="github" revision="mm-6.0" />
-  <project path="device/sony/sumire" name="SonyAosp/device-sony-sumire" groups="device" remote="github" revision="mm-6.0" />
-  <project path="device/sony/satsuki" name="SonyAosp/device-sony-satsuki" groups="device" remote="github" revision="mm-6.0" />
-
-  <project path="device/sony/rhine" name="SonyAosp/device-sony-rhine" groups="device" remote="github" revision="mm-6.0" />
-  <project path="device/sony/togari" name="SonyAosp/device-sony-togari" groups="device" remote="github" revision="mm-6.0" />
-  <project path="device/sony/amami" name="SonyAosp/device-sony-amami" groups="device" remote="github" revision="mm-6.0" />
-  <project path="device/sony/honami" name="SonyAosp/device-sony-honami" groups="device" remote="github" revision="mm-6.0" />
-
-  <project path="device/sony/shinano" name="SonyAosp/device-sony-shinano" groups="device" remote="github" revision="mm-6.0" />
-  <project path="device/sony/sirius" name="SonyAosp/device-sony-sirius" groups="device" remote="github" revision="mm-6.0" />
-  <project path="device/sony/castor" name="SonyAosp/device-sony-castor" groups="device" remote="github" revision="mm-6.0" />
-  <project path="device/sony/castor_windy" name="SonyAosp/device-sony-castor_windy" groups="device" remote="github" revision="mm-6.0" />
-  <project path="device/sony/aries" name="SonyAosp/device-sony-aries" groups="device" remote="github" revision="mm-6.0" />
-  <project path="device/sony/leo" name="SonyAosp/device-sony-leo" groups="device" remote="github" revision="mm-6.0" />
-  <project path="device/sony/scorpion" name="SonyAosp/device-sony-scorpion" groups="device" remote="github" revision="mm-6.0" />
-  <project path="device/sony/scorpion_windy" name="SonyAosp/device-sony-scorpion_windy" groups="device" remote="github" revision="mm-6.0" />
-
-  <project path="device/sony/yukon" name="SonyAosp/device-sony-yukon" groups="device" remote="github" revision="mm-6.0" />
-  <project path="device/sony/flamingo" name="SonyAosp/device-sony-flamingo" groups="device" remote="github" revision="mm-6.0" />
-  <project path="device/sony/eagle" name="SonyAosp/device-sony-eagle" groups="device" remote="github" revision="mm-6.0" />
-  <project path="device/sony/tianchi" name="SonyAosp/device-sony-tianchi" groups="device" remote="github" revision="mm-6.0" />
-  <project path="device/sony/seagull" name="SonyAosp/device-sony-seagull" groups="device" remote="github" revision="mm-6.0" />
-
-  <project path="external/libnfc-nci" name="SonyAosp/platform_external_libnfc-nci" groups="pdk" remote="github" revision="mm-6.0" />
+  <project path="external/libnfc-nci" name="infected-mm/platform_external_libnfc-nci" groups="pdk" remote="github" revision="mm-6.0" />
   <project path="external/sony/boringssl-compat" name="boringssl-compat" groups="device" remote="sony" revision="master" />
 
-  <project path="hardware/broadcom/libbt" name="SonyAosp/platform_hardware_broadcom_libbt" groups="pdk" remote="github" revision="mm-6.0" />
-  <project path="hardware/qcom/camera" name="camera" groups="qcom" remote="sony" revision="aosp/LA.BF64.1.2.2_rb4.7" />
-  <project path="hardware/qcom/wlan" name="SonyAosp/platform_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="mm-6.0" />
-  <project path="hardware/sony/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
-  <project path="hardware/sony/mkqcdtbootimg" name="mkqcdtbootimg" groups="device" remote="sony" revision="master" />
-  <project path="hardware/sony/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
-  <project path="hardware/sony/macaddrsetup" name="macaddrsetup" groups="device" remote="sony" revision="master" />
+  <project path="hardware/broadcom/libbt" name="infected-mm/platform_hardware_broadcom_libbt" groups="pdk" remote="github" revision="mm-6.0" />
+  <project path="hardware/qcom/camera" name="infected-mm/camera" groups="qcom" remote="github" revision="aosp/LA.BF64.1.2.2_rb4.7" />
+  <project path="hardware/qcom/wlan" name="infected-mm/platform_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="mm-6.0" />
+  <project path="hardware/sony/thermanager" name="infected-mm/thermanager" groups="device" remote="github" revision="master" />
+  <project path="hardware/sony/mkqcdtbootimg" name="infected-mm/mkqcdtbootimg" groups="device" remote="github" revision="master" />
+  <project path="hardware/sony/timekeep" name="infected-mm/timekeep" groups="device" remote="github" revision="master" />
+  <project path="hardware/sony/macaddrsetup" name="infected-mm/macaddrsetup" groups="device" remote="github" revision="master" />
 
-  <project path="kernel/sony/msm" name="SonyAosp/kernel" groups="device" remote="github" revision="mm-6.0" />
+  <project path="kernel/sony/msm" name="infected-mm/kernel" groups="device" remote="github" revision="mm-6.0" />
 
-  <project path="packages/apps/DeskClock" name="SonyAosp/platform_packages_apps_DeskClock" groups="pdk-fs" remote="github" revision="mm-6.0" />
-  <project path="packages/apps/Dialer" name="SonyAosp/platform_packages_apps_Dialer" groups="pdk-fs" remote="github" revision="mm-6.0" />
-  <project path="packages/apps/Nfc" name="SonyAosp/platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="github" revision="mm-6.0" />
+  <project path="packages/apps/DeskClock" name="infected-mm/platform_packages_apps_DeskClock" groups="pdk-fs" remote="github" revision="mm-6.0" />
+  <project path="packages/apps/Dialer" name="infected-mm/platform_packages_apps_Dialer" groups="pdk-fs" remote="github" revision="mm-6.0" />
+  <project path="packages/apps/Nfc" name="infected-mm/platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="github" revision="mm-6.0" />
 
-  <project path="vendor/google" name="SonyAosp/platform_vendor_google" groups="device" remote="github" revision="mm-6.0" />
-  <project path="vendor/qcom" name="SonyAosp/platform_vendor_qcom" groups="device" remote="github" revision="mm-6.0" />
-  <project path="vendor/qcom/proprietary" name="SonyAosp/platform_vendor_qcom_proprietary" groups="device" remote="github" revision="mm-6.0" />
-  <project path="vendor/qcom/opensource/dataservices" name="vendor-qcom-opensource-dataservices" groups="device" remote="sony" revision="master" />
-  <project path="vendor/sony" name="SonyAosp/platform_vendor_sony" groups="device" remote="github" revision="mm-6.0" />
+  <project path="vendor/google" name="infected-mm/platform_vendor_google" groups="device" remote="github" revision="mm-6.0" />
+  <project path="vendor/qcom" name="infected-mm/platform_vendor_qcom" groups="device" remote="github" revision="mm-6.0" />
+  <project path="vendor/qcom/proprietary" name="infected-mm/platform_vendor_qcom_proprietary" groups="device" remote="github" revision="mm-6.0" />
+  <project path="vendor/qcom/opensource/dataservices" name="infected-mm/vendor-qcom-opensource-dataservices" groups="device" remote="github" revision="master" />
+  <project path="vendor/sony" name="infected-mm/platform_vendor_sony" groups="device" remote="github" revision="mm-6.0" />
 
 </manifest>

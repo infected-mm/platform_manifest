@@ -29,7 +29,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/SonyAosp/platform_manifest -b mm-6.0
+$ repo init -u https://github.com/infected-mm/platform_manifest -b mm-6.0
 ```
 
 ### Downloading the source tree ###
